@@ -4,7 +4,7 @@ import router from "./router";
 import store from "./store";
 import "./assets/tailwind.css";
 
-import "./helpers/firebase";
+import "../helpers/firebase";
 import "firebaseui/dist/firebaseui.css"
 
 Vue.config.productionTip = false;
