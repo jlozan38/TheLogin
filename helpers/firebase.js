@@ -16,7 +16,6 @@ const firebaseConfig = {
 }
 
 firebase.initializeApp(firebaseConfig);
-
 const ui = new firebaseui.auth.AuthUI(firebase.auth())
 
 Vue.prototype.$firebase = firebase
